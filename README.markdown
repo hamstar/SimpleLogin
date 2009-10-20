@@ -14,15 +14,35 @@ Before you do anything you will need to set your configuration settings that are
 
 Heres what the settings mean.
 
-**USER_TABLE**: The database table containing your users
-**USER_NAME_FIELD**: The name of the field in the table that contains the usernames
-**USER_PASS_FIELD**: The name of the password field
-**USER_EMAIL_FIELD**: The name of the email field
-**USER_SALT_FIELD**: The name of the salt field
-**USER_LEVEL_FIELD**: The name of the userlevel field
-
-**PRINT_ERRORS**: When set to 1 the class errors are printed to the page.  0 disables this.
-**ERROR_WRAPPER**: This is the html that surrounds the errors to style them so they stand out.
+<table>
+	<tr>
+		<td>*Setting*</td><td>**Description**</td>
+	</tr>
+	<tr>
+		<td>**USER_TABLE**</td><td>The database table containing your users</td>
+	</tr>
+	<tr>
+                <td>**USER_NAME_FIELD**</td><td>The name of the field in the table that contains the usernames</td>
+        </tr>
+        <tr>
+                <td>**USER_PASS_FIELD**</td><td>The name of the password field</td>
+        </tr>
+        <tr>
+                <td>**USER_EMAIL_FIELD**</td><td>The name of the email field</td>
+        </tr>
+        <tr>
+                <td>**USER_SALT_FIELD**</td><td>The name of the salt field</td>
+        </tr>
+        <tr>
+                <td>**USER_LEVEL_FIELD**</td><td>The name of the userlevel field</td>
+        </tr>
+	<tr>
+                <td>**PRINT_ERRORS**</td><td>When set to 1 the class errors are printed to the page.  0 disables this</td>
+        </tr>
+        <tr>
+                <td>**ERROR_WRAPPER**</td><td>This is the html that surrounds the errors to style them so they stand out</td>
+	</tr>
+</table>
 
 You also might like to set the user levels to some other than default.  The user levels are very simple.  Basically it is just an array, the key of an array element (i.e. 1) is the user level and the value of the array element (i.e. 'admin') is the user role.  It is the user level that is saved to the database and converted to a user role on PHP's side of things.
 
