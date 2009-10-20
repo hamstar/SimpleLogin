@@ -16,31 +16,31 @@ Heres what the settings mean.
 
 <table>
 	<tr>
-		<td>*Setting*</td><td>**Description**</td>
+		<td> **Setting** </td><td> **Description** </td>
 	</tr>
 	<tr>
-		<td>**USER_TABLE**</td><td>The database table containing your users</td>
+		<td> **USER_TABLE** </td><td>The database table containing your users</td>
 	</tr>
 	<tr>
-                <td>**USER_NAME_FIELD**</td><td>The name of the field in the table that contains the usernames</td>
+                <td> **USER_NAME_FIELD** </td><td>The name of the field in the table that contains the usernames</td>
         </tr>
         <tr>
-                <td>**USER_PASS_FIELD**</td><td>The name of the password field</td>
+                <td> **USER_PASS_FIELD** </td><td>The name of the password field</td>
         </tr>
         <tr>
-                <td>**USER_EMAIL_FIELD**</td><td>The name of the email field</td>
+                <td> **USER_EMAIL_FIELD** </td><td>The name of the email field</td>
         </tr>
         <tr>
-                <td>**USER_SALT_FIELD**</td><td>The name of the salt field</td>
+                <td> **USER_SALT_FIELD** </td><td>The name of the salt field</td>
         </tr>
         <tr>
-                <td>**USER_LEVEL_FIELD**</td><td>The name of the userlevel field</td>
+                <td> **USER_LEVEL_FIELD** </td><td>The name of the userlevel field</td>
         </tr>
 	<tr>
-                <td>**PRINT_ERRORS**</td><td>When set to 1 the class errors are printed to the page.  0 disables this</td>
+                <td> **PRINT_ERRORS** </td><td>When set to 1 the class errors are printed to the page.  0 disables this</td>
         </tr>
         <tr>
-                <td>**ERROR_WRAPPER**</td><td>This is the html that surrounds the errors to style them so they stand out</td>
+                <td> **ERROR_WRAPPER** </td><td>This is the html that surrounds the errors to style them so they stand out</td>
 	</tr>
 </table>
 
